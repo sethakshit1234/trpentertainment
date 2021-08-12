@@ -1,0 +1,133 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body{
+  
+
+  /* background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%); */
+
+  background: linear-gradient(90deg, rgb(247, 248, 248) 0%, rgb(241, 241, 241) 100%);
+  
+}
+
+h4{
+  text-align: center;
+  padding: 1rem;
+  font-family:sans-serif;
+  margin: 0 auto;
+  width: 80%;
+  color: #020001;
+  text-transform: uppercase;
+  
+}
+
+button {
+  background:#140106 !important;
+  display: inline-block;
+  width: 200px;
+   margin: 5rem;
+  padding: .7rem 3rem;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+
+}
+
+button:hover{
+  background: #e91a4e;
+}
+.container {
+  background: #ccc;
+  border-radius: 10px;
+}
+a {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  background: #e91a4e !important;
+  text-decoration: none;
+  padding: .7rem 3rem;
+   border-radius: 4px;
+}
+    a:hover{
+ color: white;
+text-decoration: none;
+
+}
+ 
+form{
+  padding: 8px;
+ border-radius: 10px;
+}
+option{
+ width: 100%;
+}
+.location{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+input[type="checkbox"]{
+ margin-left: 10px;
+
+}
+
+span{
+  margin-left: 5px;
+}
+
+
+
+.mobile{
+  display: none;
+}
+
+.laptop{
+  display: block;
+}
+.thanku{
+  color: #a01638;
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 775px){
+input[type="checkbox"]{
+ margin-left: 10px;
+ margin-bottom: 10px;
+}
+h4{
+  font-size: medium;
+}
+.location{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+h4{
+  font-size: 15px;
+}
+button{
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+}
+a{
+  width: 100%;
+  display: block;
+      text-align: center;
+}
+
+.mobile{
+  display: block;
+}
+
+.laptop{
+  display: none;
+}
+
+}
+
+.footer-margin{
+  margin-top: 100px;
+}
